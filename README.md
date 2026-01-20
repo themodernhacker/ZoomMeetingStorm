@@ -10,8 +10,6 @@
 > **Note:** This tool utilizes "Headless Stealth Mode" to bypass bot detection mechanisms, allowing for accurate simulation of real-user join behaviors without triggering anti-bot blocks.
 
 ![Zoom Meeting Storm Interface](screenshot.png)
-*(Upload an image named screenshot.png to your repository to see it here)*
-
 ---
 
 ## ⚡ Key Features
@@ -36,7 +34,7 @@
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/themodernhacker/ZoomMeetingStorm.git](https://github.com/themodernhacker/ZoomMeetingStorm.git)
+    git clone https://github.com/themodernhacker/ZoomMeetingStorm.git
     cd ZoomMeetingStorm
     ```
 
@@ -78,4 +76,5 @@
 By default, the tool runs in **Headless Mode** (invisible) to save RAM.
 To see the browsers open (for debugging), open `main.py` and find:
 ```python
+
 options.add_argument("--headless=new")
