@@ -81,7 +81,7 @@ By default, the tool runs in **Headless Mode** (invisible) to save RAM.
 To see the browsers open (for debugging), open `main.py` and find:
 ```python
 # options.add_argument("--headless=new")
-
+```
 ---
 
 ## ⚠️ Disclaimer
@@ -103,5 +103,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ---
 
 **Made with 💻 & ☕**
-
-
