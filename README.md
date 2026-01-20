@@ -10,7 +10,6 @@
 > **Note:** This tool utilizes "Headless Stealth Mode" to bypass bot detection mechanisms, allowing for accurate simulation of real-user join behaviors without triggering anti-bot blocks.
 
 ![Zoom Meeting Storm Interface](screenshot.png)
-*(Upload an image named screenshot.png to your repository to see it here)*
 
 ---
 
@@ -39,7 +38,7 @@
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/themodernhacker/ZoomMeetingStorm.git](https://github.com/themodernhacker/ZoomMeetingStorm.git)
+    git clone https://github.com/themodernhacker/ZoomMeetingStorm.git
     cd ZoomMeetingStorm
     ```
 
@@ -106,3 +105,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ---
 
 **Made with 💻 & ☕**
+
