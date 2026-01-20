@@ -10,6 +10,8 @@
 > **Note:** This tool utilizes "Headless Stealth Mode" to bypass bot detection mechanisms, allowing for accurate simulation of real-user join behaviors without triggering anti-bot blocks.
 
 ![Zoom Meeting Storm Interface](screenshot.png)
+*(Upload an image named screenshot.png to your repository to see it here)*
+
 ---
 
 ## ⚡ Key Features
@@ -25,16 +27,19 @@
 
 ## 🛠️ Installation
 
+### 📥 [Download Windows App (.exe)](https://github.com/themodernhacker/ZoomMeetingStorm/releases/latest)
+*(No Python or coding knowledge required - just download and run)*
+
 ### Prerequisites
-* **Python 3.10** or higher.
+* **Python 3.10** or higher (Only if running from source).
 * **Google Chrome** installed on your machine.
 * An active internet connection.
 
-### Setup Guide
+### Setup Guide (Source Code)
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/themodernhacker/ZoomMeetingStorm.git
+    git clone [https://github.com/themodernhacker/ZoomMeetingStorm.git](https://github.com/themodernhacker/ZoomMeetingStorm.git)
     cd ZoomMeetingStorm
     ```
 
@@ -53,7 +58,7 @@
 
 ## 📖 How to Use
 
-1.  **Launch the Application:** Run the script to open the Zoom Meeting Storm GUI.
+1.  **Launch the Application:** Run the script (or `.exe`) to open the Zoom Meeting Storm GUI.
 2.  **Input Meeting Details:**
     * **Option A:** Paste the full Zoom Invite Link (e.g., `https://zoom.us/j/123...?pwd=...`).
     * **Option B:** Enter the Meeting ID and Password manually.
@@ -76,5 +81,28 @@
 By default, the tool runs in **Headless Mode** (invisible) to save RAM.
 To see the browsers open (for debugging), open `main.py` and find:
 ```python
-
 options.add_argument("--headless=new")
+
+Comment this line out by adding a `#` at the start.
+
+---
+
+## ⚠️ Disclaimer
+
+**Educational & Testing Use Only**
+
+This tool is intended solely for **authorized load testing** and **network stability analysis**.
+
+* Do not use this tool on meetings where you do not have explicit permission from the host.
+* Do not use this tool to disrupt services (DDoS).
+* The developer assumes no liability for misuse of this software.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request for any feature improvements or bug fixes.
+
+---
+
+**Made with 💻 & ☕**
